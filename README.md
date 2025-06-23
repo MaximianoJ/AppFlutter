@@ -87,7 +87,7 @@ lib/
 
 ### Este projeto foi desenvolvido para fins educacionais.
 
-# Autor👤:
+# 👤Autor:
 ### João Gabriel Maximiano
 [LinkedIn](https://www.linkedin.com/in/joaomaximiano) 
 

@@ -64,6 +64,8 @@ flutter pub get
 # Execute no emulador, celular ou Web
 flutter run
 ```
+
+
 ### Organização do projeto: 
 ````
 lib/
@@ -81,13 +83,15 @@ lib/
 │
 └── main.dart             # Ponto de entrada do app
 ````
+
+
 ## 🧪 Testado em
 ✅ Navegador (Web)
 ✅ Dispositivo Android (em tempo real via depuração por USB)
 
 ### Este projeto foi desenvolvido para fins educacionais.
 
-# 👤Autor:
+## 👤Autor:
 ### João Gabriel Maximiano
 [LinkedIn](https://www.linkedin.com/in/joaomaximiano) 
 

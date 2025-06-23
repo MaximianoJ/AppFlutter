@@ -10,16 +10,17 @@ Este projeto foi desenvolvido como parte de um desafio de Flutter.
 ### App rodando no mobile
 
 ### Tela de Início
-![ImagemHome](https://github.com/user-attachments/assets/f6ec13e7-b46f-4fc0-bbe0-37a52011e1c4)
+<img src="screenshots/ImagemHome.jpg" width="200"/>
+
 
 ### Tela de Busca
-![ImagemBusca](https://github.com/user-attachments/assets/d1d2558b-47ca-41ba-a85e-daa940035fb4)
+<img src="screenshots/ImagemBusca.jpg" width="200"/>
 
 ### Tela de detalhes do filme
-![ImagemDetalhes](https://github.com/user-attachments/assets/6c81c550-b460-4c7e-8d6e-60a3f2ee6787)
+<img src="screenshots/ImagemDetalhes.jpg" width="200"/>
 
 ### Tela de filmes salvos
-![ImagemSalvos](https://github.com/user-attachments/assets/11773e49-a730-42b8-86f7-7d72eac1e0e2)
+<img src="screenshots/ImagemSalvos.jpg" width="200"/>
 
 ## 🚀 Funcionalidades
 

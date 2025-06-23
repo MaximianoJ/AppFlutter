@@ -1,26 +1,25 @@
 # 🎬 App Flutter - Buscador de Filmes
 
-Aplicativo desenvolvido em Flutter para a solução de um desafio. O app permite ao usuário buscar filmes, visualizar tendências, conferir os lançamentos atuais e nos cinemas, acessar detalhes dos filmes e salvá-los em uma lista personalizada.
+Aplicativo desenvolvido em Flutter e Dart. O app permite ao usuário buscar filmes, visualizar tendências, conferir os lançamentos atuais e nos cinemas, acessar detalhes dos filmes e salvá-los em uma lista personalizada.
 
 Este projeto foi desenvolvido como parte de um desafio de Flutter.
 
----
 
 ## 📱 Demonstração
 
 ### App rodando no mobile
-![Essa é a tela de Início](![ImagemHome](https://github.com/user-attachments/assets/c4d6652c-191f-4373-854b-4594184887dd)
-)
 
-![Essa é a tela de busca](![ImagemBusca](https://github.com/user-attachments/assets/f2468ac9-1452-4975-a278-f85d10a65f34)
-)
- ![Essa é a tela de detalhes do filme](![ImagemDetalhes](https://github.com/user-attachments/assets/4e67ab55-b7a2-4a1e-8d82-4886bbf5d1ac 
-)
+### Tela de Início
+![ImagemHome](https://github.com/user-attachments/assets/f6ec13e7-b46f-4fc0-bbe0-37a52011e1c4)
 
-![Essa é a tela da lista de filmes salvos/favoritos](![ImagemSalvos](https://github.com/user-attachments/assets/1ab0eabb-ff2e-424d-8123-a3128155c536)
- )
+### Tela de Busca
+![ImagemBusca](https://github.com/user-attachments/assets/d1d2558b-47ca-41ba-a85e-daa940035fb4)
 
----
+### Tela de detalhes do filme
+![ImagemDetalhes](https://github.com/user-attachments/assets/6c81c550-b460-4c7e-8d6e-60a3f2ee6787)
+
+### Tela de filmes salvos
+![ImagemSalvos](https://github.com/user-attachments/assets/11773e49-a730-42b8-86f7-7d72eac1e0e2)
 
 ## 🚀 Funcionalidades
 
@@ -64,3 +63,30 @@ flutter pub get
 # Execute no emulador, celular ou Web
 flutter run
 ```
+### Organização do projeto: 
+````
+lib/
+│
+├── models/               # Modelos como Movie, MovieSortOption
+├── services/             # Integração com a API de filmes e gêneros
+├── widgets/              # Componentes reutilizáveis (cards, título de seção, etc.)
+├── pages/
+│   ├── home/             # Telas da navegação inferior (início, pesquisa, salvos)
+│   │   ├── home_inicio.dart
+│   │   ├── home_pesquisa.dart
+│   │   └── home_salvos.dart
+│   ├── movie_page.dart   # Tela de detalhes do filme
+│   └── inicio_screen.dart  # Contém o Scaffold principal com a navegação
+│
+└── main.dart             # Ponto de entrada do app
+````
+## 🧪 Testado em
+✅ Navegador (Web)
+✅ Dispositivo Android (em tempo real via depuração por USB)
+
+### Este projeto foi desenvolvido para fins educacionais.
+
+# Autor 👤
+### João Gabriel Maximiano
+[Meu LinkedIn](https://www.linkedin.com/in/joaomaximiano) 
+
